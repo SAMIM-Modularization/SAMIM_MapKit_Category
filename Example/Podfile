@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAMIM_MapKit_Category_Example' do
+  pod 'SAMIM_MapKit_Category', :path => '../'
+
+  target 'SAMIM_MapKit_Category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
