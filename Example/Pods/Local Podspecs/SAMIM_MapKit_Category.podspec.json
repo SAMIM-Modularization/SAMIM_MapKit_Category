@@ -1,0 +1,22 @@
+{
+  "name": "SAMIM_MapKit_Category",
+  "version": "0.1.0",
+  "summary": "A short description of SAMIM_MapKit_Category.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/811528603@qq.com/SAMIM_MapKit_Category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "811528603@qq.com": "811528603@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/811528603@qq.com/SAMIM_MapKit_Category.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SAMIM_MapKit_Category/Classes/**/*"
+}
