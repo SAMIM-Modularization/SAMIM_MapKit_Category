@@ -1,12 +1,20 @@
 PODS:
   - CTMediator (12)
+  - SAMIM_MapKit_Category (1.0.0):
+    - CTMediator
 
 DEPENDENCIES:
   - CTMediator
+  - SAMIM_MapKit_Category (from `../`)
+
+EXTERNAL SOURCES:
+  SAMIM_MapKit_Category:
+    :path: ../
 
 SPEC CHECKSUMS:
   CTMediator: 83043d198b7ea73214d53375adfdd7f60edd4c1a
+  SAMIM_MapKit_Category: df8298f4df427db88745e7e4dcb6429e1a626604
 
-PODFILE CHECKSUM: 4a0c4a764fbcda65f76dea843a50c72cdf4352d9
+PODFILE CHECKSUM: d95f79cf3b07588304579d489c451531e1bf1171
 
 COCOAPODS: 1.4.0.beta.1

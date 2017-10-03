@@ -100,15 +100,6 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SAMIM_MapKit_Category/SAMIM_MapKit_Category.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SAMIM_MapKit_Category/SAMIM_MapKit_Category.framework"
-fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi
