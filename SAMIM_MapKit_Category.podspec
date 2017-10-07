@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SAMIM_MapKit_Category'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of SAMIM_MapKit_Category. Categories(这是一个单独的repo，所用需要调度其他模块的人，只需要依赖这个repo。这个repo由target-action维护者维护 (ZIKong))'
 
 # This description is used to generate tags and improve search results.
